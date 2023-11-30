@@ -5,6 +5,8 @@ const server = http.createServer(app);
 const { Server } = require("socket.io");
 const io = new Server(server);
 
+// hi hehe :)
+
 const PORT = 3000;
 
 function main() {
